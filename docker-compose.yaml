@@ -1,9 +1,9 @@
 version: '3'
 services:
   cassandra:
-    image:  cassandra:3.11
+    image:  cassandra:4.0.12
     environment:
-      - CASSANDRA_CLUSTER_NAME='Cassandra Terrform Provider Test Cluster'
+      - CASSANDRA_CLUSTER_NAME='Cassandra Terraform Provider Test Cluster'
     ports:
       - 9042:9042
     volumes:
