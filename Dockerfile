@@ -1,5 +1,5 @@
 # Start by building the application.
-FROM golang:1.13 as build
+FROM golang:1.21 as build
 
 WORKDIR /go/src/github.com/daryl-d/terraform-provider-cassandra
 COPY . .
